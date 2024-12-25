@@ -1,0 +1,247 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383493,
+        "lng": 33.38455
+    },
+    "accuracy": 50,
+    "name": "Ravi",
+    "phone_number": "(+91)9971881915",
+    "address": "Test, 29 bridge",
+    "types": [
+        "Shoe",
+        "shop"
+    ],
+    "website": "https://rahulshettyacademy.com",
+    "language": "French-IN"
+}
+HTTP/1.1 200 OK
+Date: Fri, 20 Dec 2024 07:56:22 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "5456c9625eab3301bc6a27640632018c",
+    "scope": "APP",
+    "reference": "4f20a210f5e01d71fecaa046739c1c474f20a210f5e01d71fecaa046739c1c47",
+    "id": "4f20a210f5e01d71fecaa046739c1c47"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383493,
+        "lng": 33.38455
+    },
+    "accuracy": 50,
+    "name": "Ravi",
+    "phone_number": "(+91)9971881915",
+    "address": "Test Address",
+    "types": [
+        "Shoe",
+        "shop"
+    ],
+    "website": "https://rahulshettyacademy.com",
+    "language": "English"
+}
+HTTP/1.1 200 OK
+Date: Fri, 20 Dec 2024 07:56:24 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "c873c38071bf5c2284d6c13c320f4815",
+    "scope": "APP",
+    "reference": "f31c47b55202e9035b53950717041c5af31c47b55202e9035b53950717041c5a",
+    "id": "f31c47b55202e9035b53950717041c5a"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=c873c38071bf5c2284d6c13c320f4815
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=c873c38071bf5c2284d6c13c320f4815
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 20 Dec 2024 07:56:24 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 235
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383493",
+        "longitude": "33.38455"
+    },
+    "accuracy": "50",
+    "name": "Ravi",
+    "phone_number": "(+91)9971881915",
+    "address": "Test Address",
+    "types": "Shoe,shop",
+    "website": "https://rahulshettyacademy.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383493,
+        "lng": 33.38455
+    },
+    "accuracy": 50,
+    "name": "Raj Kumar",
+    "phone_number": "(+91)9971881915",
+    "address": "Test address t",
+    "types": [
+        "Shoe",
+        "shop"
+    ],
+    "website": "https://rahulshettyacademy.com",
+    "language": "Franch IN"
+}
+HTTP/1.1 200 OK
+Date: Fri, 20 Dec 2024 07:56:25 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "345745cf2b20e2397ea3a3cf3ce1d7ee",
+    "scope": "APP",
+    "reference": "65003ea1b7cb35b7ce405c20d552e43c65003ea1b7cb35b7ce405c20d552e43c",
+    "id": "65003ea1b7cb35b7ce405c20d552e43c"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=345745cf2b20e2397ea3a3cf3ce1d7ee
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=345745cf2b20e2397ea3a3cf3ce1d7ee
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 20 Dec 2024 07:56:26 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 244
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383493",
+        "longitude": "33.38455"
+    },
+    "accuracy": "50",
+    "name": "Raj Kumar",
+    "phone_number": "(+91)9971881915",
+    "address": "Test address t",
+    "types": "Shoe,shop",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Franch IN"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "345745cf2b20e2397ea3a3cf3ce1d7ee"
+}
+HTTP/1.1 200 OK
+Date: Fri, 20 Dec 2024 07:56:27 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
